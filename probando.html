@@ -1,103 +1,106 @@
-<!DOCTYPE html>
-<html lang="en">
+<h1>Grid Auto Columns and Image Effects</h1>
+<link rel="stylesheet" href="styles/probando.css">
+<section>
+    <h2 class="stdlf">Barranquilla Columbia Temple</h2>
+    <div class="container stdlf">
+        <figure>
+            <img class="hover"
+                src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/1280x800/3-Barranquilla-Columblia-Temple-2135198.jpg"
+                loading="lazy" width="250" height="167" alt="Barranquilla Columbia Temple">
+            <figcaption>:hover pseudo-class | box-shadow</figcaption>
+        </figure>
+        <figure><img class="rocorn"
+                src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/1280x800/3-Barranquilla-Columblia-Temple-2135198.jpg"
+                loading="lazy" width="250" height="167" alt="Barranquilla Columbia Temple">
+            <figcaption>border-radius (15px 150px)</figcaption>
+        </figure>
+        <figure><img class="opac"
+                src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/1280x800/3-Barranquilla-Columblia-Temple-2135198.jpg"
+                alt="Barranquilla Columbia Temple">
+            <figcaption>opacity (.5)</figcaption>
+        </figure>
+        <figure><img class="blur"
+                src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/1280x800/3-Barranquilla-Columblia-Temple-2135198.jpg"
+                loading="lazy" width="250" height="167" alt="Barranquilla Columbia Temple">
+            <figcaption>filter: blur at 4px</figcaption>
+        </figure>
+        <figure><img class="gray"
+                src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/1280x800/3-Barranquilla-Columblia-Temple-2135198.jpg"
+                loading="lazy" width="250" height="167" alt="Barranquilla Columbia Temple">
+            <figcaption>filter: blur (1px) and grayscale (50%)</figcaption>
+        </figure>
+        <figure><img class="object"
+                src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/1280x800/3-Barranquilla-Columblia-Temple-2135198.jpg"
+                loading="lazy" width="250" height="167" alt="Barranquilla Columbia Temple">
+            <figcaption>object-fit<br><br>⚙️ <a href="https://youtu.be/5CZyxnCdXuk" target="_blank">More on Object Fit
+                    from Layout Land</a></figcaption>
+        </figure>
+        <figure><img class="contrast"
+                src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/1280x800/3-Barranquilla-Columblia-Temple-2135198.jpg"
+                loading="lazy" width="250" height="167" alt="Barranquilla Columbia Temple">
+            <figcaption>filter: contrast (50%)</figcaption>
+        </figure>
+        <figure><img class="saturate"
+                src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/1280x800/3-Barranquilla-Columblia-Temple-2135198.jpg"
+                loading="lazy" width="250" height="167" alt="Barranquilla Columbia Temple">
+            <figcaption>filter: saturate(50%)</figcaption>
+        </figure>
+        <figure><img class="shape-outside"
+                src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/1280x800/3-Barranquilla-Columblia-Temple-2135198.jpg"
+                loading="lazy" width="250" height="167" alt="Barranquilla Columbia Temple">
+            <figcaption>Shape-Outside (shape-outside: circle();) is applied with a border-radius and a reduced width.
+                The shape-outside property may not be supported in your browser. Consult <a
+                    href="https://caniuse.com/#search=shape-outside" target="_blank">CanIUse</a> to check the support
+                status of this css property.
+            </figcaption>
+        </figure>
+        <figure><img class="mbm-difference"
+                src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/1280x800/3-Barranquilla-Columblia-Temple-2135198.jpg"
+                loading="lazy" width="250" height="167" alt="Barranquilla Columbia Temple">
+            <figcaption>mix-blend-mode: difference</figcaption>
+        </figure>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-        }
+        <figure><img class="mbm-hard-light"
+                src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/1280x800/3-Barranquilla-Columblia-Temple-2135198.jpg"
+                loading="lazy" width="250" height="167" alt="Barranquilla Columbia Temple">
+            <figcaption>mix-blend-mode: hard-light</figcaption>
+        </figure>
 
-        .container {
-            display: flex;
-            gap: 20px;
-            flex-wrap: wrap;
-            margin: 1rem;
-        }
+        <figure>
+            <img class="transform"
+                src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/1280x800/3-Barranquilla-Columblia-Temple-2135198.jpg"
+                loading="lazy" width="250" height="167" alt="Barranquilla Columbia Temple">
+            <figcaption>Flip Horizontally</figcaption>
+        </figure>
 
-        .box {
-            flex: 1;
-            min-width: 300px;
-            border: 1px solid #ccc;
-            border-radius: 10px;
-            padding: 20px;
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-        }
+        <figure>
+            <img class="turn"
+                src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/1280x800/3-Barranquilla-Columblia-Temple-2135198.jpg"
+                loading="lazy" width="250" height="167" alt="Barranquilla Columbia Temple">
+            <figcaption>Turn Unit</figcaption>
+        </figure>
 
-        .box h2 {
-            background-color: #1f4d78;
-            color: white;
-            padding: 10px;
-            margin-top: -20px;
-            margin-left: -20px;
-            margin-right: -20px;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
-        }
-
-        .profile-pic {
-            float: right;
-            margin-left: 15px;
-            width: 100px;
-        }
-
-        .flag {
-            width: 80px;
-            float: left;
-            margin-right: 15px;
-        }
-
-        .caption {
-            font-size: 0.8em;
-            font-style: italic;
-        }
-
-        a {
-            display: block;
-            color: blue;
-            text-decoration: none;
-            margin-bottom: 8px;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-
-<body>
-
-    <div class="container">
-        <!-- Left box -->
-        <div class="box">
-            <h2>About Me</h2>
-            <img src="your-image.jpg" alt="Profile photo" class="profile-pic">
-            <p>My name is Rubia and I go by Ruby. I was born in South Africa and live with my family in Madagascar. I am
-                currently working as an administrative legal assistant at a law firm...</p>
-
-            <h3>Toloria, Madagascar</h3>
-            <hr>
-            <img src="madagascar-flag.png" alt="Flag of Madagascar" class="flag">
-            <p>Madagascar is the 4th largest island in the world and is located in the Indian Ocean...</p>
-            <p class="caption">Official Flag of Madagascar</p>
-        </div>
-
-        <!-- Right box -->
-        <div class="box">
-            <h2>Web Dev Resources</h2>
-            <a href="#">Dev.to Community</a>
-            <a href="#">Smashing Magazine</a>
-            <a href="#">CSS Tricks</a>
-            <a href="#">W3 Schools</a>
-            <a href="#">Udemy</a>
-            <a href="#">Image Placeholder</a>
-        </div>
     </div>
 
-</body>
-
-</html>
+</section>
+<section class="mosaic">
+    <img src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/1280x800/3-Barranquilla-Columblia-Temple-2135198.jpg"
+        alt="">
+    <div class="pic">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</section>
