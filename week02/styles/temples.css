@@ -17,10 +17,41 @@ header{
     justify-content: space-around;
     align-items: center;
     list-style: none;
+    flex-direction: column;  
+    text-align: center;
+   
+    
+}
+/* .title{
+    display: none;
 
- 
-    
-    
+} */
+.navigation a{
+    display: none;
+}
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: #000;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+    color: white;
+}
+
+#menu.open::before {
+    content: "❌";
+}
+.hide{
+    display: none;
+}
+.open a {
+    display: block;
 }
 .navigation :hover{
     color:#58B5FC;
@@ -79,4 +110,4 @@ main {
     max-width: 1500px;
     margin: 1 auto; }
 
-        
+    
