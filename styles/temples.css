@@ -12,6 +12,9 @@ header{
 
 
 }
+figcaption{
+    text-align: center;
+}
 .navigation{
     display: flex;
     justify-content: space-around;
@@ -53,7 +56,7 @@ header{
 .open a {
     display: block;
 }
-.navigation :hover{
+.navigation a:hover{
     color:#58B5FC;
     text-decoration: underline;
 }
