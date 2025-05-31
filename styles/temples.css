@@ -56,6 +56,9 @@ figcaption{
 .open a {
     display: block;
 }
+h2{
+    text-align: center;
+}
 .navigation a:hover{
     color:#58B5FC;
     text-decoration: underline;
