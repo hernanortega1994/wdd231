@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tayrona Park</title>
+    <meta name="author" content="Hernán Ortega Castro">
+    <meta name="description"
+        content="Tayrona Park is a magical place where you can find the most beautiful beaches in Colombia, sometimes even in South America!">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css" media="(min-width: 37.5em)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+   <div class="principal"> 
+        <header>
+            <h1 class="title"> Tayrona Park</h1>
+        </header>
+        <div class="lineBlack"> </div>
+         <div class="image">
+            <picture>    
+                <source media="(min-width: 1000px)" srcset="images/tayrona_park.webp">
+                <source media="(min-width: 500px)" srcset="images/tayronapark-medium.webp">
+                <img src="images/tayronapark-small.webp" alt="Tayrona Park">
+            </picture>  
+         </div>
+            <div class="cards">
+                 <div class="Data">
+                     <h2 class="subtitle"> Data</h2>
+                     <p class="info">
+                         <b>Area:</b>180km²<br>
+                         <b>Population:</b>None Administered from Santa Marta, Colombia<br>
+                         <b>Languages:</b>Spanish (official), Kogui, Wiwa, Arhuaco, Kankuamo (indigenous)<br>
+                         <b>Currency:</b>Colombian Peso (COP)<br>
+                         <b>Time Zone:</b>UTC 5 (COT), no daylight saving<br>
+                         <b>Calling Code:</b>+57 (Colombia), local code 605 (Santa Marta)<br>
+                         <b>Internet TLD:</b>.co<br>
+                 
+                 
+                     </p>
+                     </div>
+                     <div class="Weather">
+                         <h2 class="subtitle">Weather</h2>
+                         <img src="images/weatherIcon.svg" alt="weather icon">
+                         <p class="info">
+                             <b> Temperature:</b> <br>
+                             <b> Conditions:</b> <br>
+                             <b> Wind:</b> <br>
+                             <b> Wind Chill:</b> <br>
+                         </p>  </div>
+            </div>
+        
+        
+        <footer>
+            &copy; <span id="currentYear"></span> 🧮 Hernan Ortega 🧮 Castro<p>Tayrona Park</p>
+            <p id="lastModified"></p>
+            </footer>
+    </div>
+    
+   
+    
+</body>
+</html>

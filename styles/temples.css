@@ -99,6 +99,7 @@ h2{
     grid-template-columns: repeat(auto-fit, 300px);
         gap: 25px;
     justify-content: center;
+    
 }
   
 
