@@ -61,7 +61,7 @@
             padding: 20px;
             grid-column: 1/3;
         }
-        .subtitle{
+        .subtitleData, .subtitleWeather{
             text-align: center;
             font-family: "Tuffy", sans-serif;
                 font-weight: 700;
