@@ -1,14 +1,7 @@
-
-.tuffy-regular {
-    font-family: "Tuffy", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+.html{
+    margin: o;
+    padding: o;
 }
-
-.tuffy-bold {
-    font-family: "Tuffy", sans-serif;
-    font-weight: 700;
-    font-style: normal; }
 .title{
         font-family: "Tuffy", sans-serif;
             font-weight: 700;
@@ -20,6 +13,7 @@
             display: grid;
             grid-template-rows: auto auto auto auto;
             grid-template-columns: auto auto;
+            margin:0;
             
     
         }
