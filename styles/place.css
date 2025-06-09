@@ -1,6 +1,9 @@
-
+:root {
+    --main-color: darkblue;
+    --font-family-primary: "Tuffy", sans-serif;
+}
 .title{
-        font-family: "Tuffy", sans-serif;
+        font-family: var(--font-family-primary);
             font-weight: 700;
             font-style: normal;
             color: white;
@@ -15,10 +18,11 @@
     
         }
     header{
-        background-color: darkblue;
+        background-color: var(--main-color);
         padding: 20px 20px;
         grid-column: 1/3;
-        grid-row: 1/2;        
+        grid-row: 1/2;  
+        /* font-size:var(--font-size-large);       */
         
         
       
@@ -54,13 +58,13 @@
         }
         .subtitleData, .subtitleWeather{
             text-align: center;
-            font-family: "Tuffy", sans-serif;
+            font-family: var(--font-family-primary);
                 font-weight: 700;
                 font-style: normal;
         }
         .info{
             text-align: center;
-            font-family: "Tuffy", sans-serif;
+            font-family: var(--font-family-primary);
                 font-weight: 400;
                 font-style: normal;
                 line-height: 2;
@@ -73,10 +77,10 @@
         
         
         footer{
-            font-family: "Tuffy", sans-serif;
+            font-family: var(--font-family-primary);
                 font-weight: 400;
                 font-style: normal;
-                background-color: darkblue;
+                background-color: var(--main-color);
                 color: white;
                 text-align: center;
                 padding: 5px;
@@ -91,4 +95,5 @@
             align-items: center;
 
         }
+               
         
