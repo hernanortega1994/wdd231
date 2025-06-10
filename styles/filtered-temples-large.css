@@ -1,0 +1,22 @@
+@media (min-width: 37.5em) {
+    #menu {
+        display: none;
+        /* hide hamburger button */
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navigation a {
+        display: block;
+        text-align: center;
+    }
+  
+}
